@@ -1,34 +1,16 @@
-<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="css/main.css" media="screen" title="no title" charset="utf-8">
-    <link rel="stylesheet" href="css/skeleton.css" media="screen" title="no title" charset="utf-8">
-    <link rel="stylesheet" href="css/normalize.css" media="screen" title="no title" charset="utf-8">
+<head>
     <title>Site A Week</title>
-  </head>
-  <body>
-    <div class="section center">
-        <div class="container">
-          <div class="row">
-            <div class="one-third column value">
-              <h2>Share Your Websites</h2>
-              <h5 class="value-heading">Purchase Increase</h5>
-              <p class="value-description">Percentage of users more likely to purchase on mobile friendly site.</p>
-            </div>
-            <div class="one-third column value">
-              <h2 class="value-multiplier">Push Yourself</h2>
-              <h5 class="value-heading">Multi-device Users</h5>
-              <p class="value-description">Most of the world accesses the internet on multiple devices.</p>
-            </div>
-            <div class="one-third column value">
-              <h2 class="value-multiplier">Bevome A Better Developer</h2>
-              <h5 class="value-heading">Sad Users</h5>
-              <p class="value-description">Percentage of users that are frustrated with page load times.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-  </body>
+    <!-- 1. Load libraries -->
+    <script src="node_modules/angular2/bundles/angular2-polyfills.js"></script>
+    <script src="node_modules/rxjs/bundles/Rx.umd.js"></script>
+    <script src="node_modules/angular2/bundles/angular2-all.umd.js"></script>
+    <!-- 2. Load our 'modules' -->
+    <script src='app/app.component.js'></script>
+    <script src='app/boot.js'></script>
+</head>
+<!-- 3. Display the application -->
+<body>
+<my-app>Loading...</my-app>
+</body>
 </html>
