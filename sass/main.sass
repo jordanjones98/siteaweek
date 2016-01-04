@@ -2,6 +2,8 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic)
 $poiret: Poiret One
 $opensans: Open Sans, sans-serif
+$color1: palevioletred
+
 html, body
   height: 100%
 p
@@ -12,7 +14,7 @@ h1
   text-align: center
 p.value
   font-size: 40px
-  padding-top: 15%
+  padding-top: 30%
   font-family: $poiret
 p.title
   font-size: 50px
@@ -26,13 +28,14 @@ p.subtitle
   background-image: url(img/section1.jpg)
   background-position: top
   background-attachment: fixed
+
 #background
   height: 100%
   width: 100%
   background-color: rgba(150,150,150,0.2)
 .section2
   background-color: white
-  height: 40%
+  height: 455px
 .section3
   background-image: url(img/section3.jpeg)
   background-position: bottom
@@ -40,8 +43,10 @@ p.subtitle
   color: white
 p.value-description
   font-family: $opensans
+  color: $color1
 .joinnow
   font-family: $opensans
+  color: $color1
 .join
   height: 60%
 label
@@ -62,6 +67,15 @@ label
   font-family: $opensans
 input[type="text email"]
   background-color: rgba(184, 184, 184, 0.52)
+
+// MEDIA QUERIES
+@media (max-width: 550px)
+  .section2
+    height: 925px
+
+
+
+// HOVER BOUNCE
 .hvr-bounce-to-bottom
   display: inline-block
   vertical-align: middle
@@ -84,7 +98,7 @@ input[type="text email"]
   left: 0
   right: 0
   bottom: 0
-  background: palevioletred
+  background: $color1
   -webkit-transform: scaleY(0)
   transform: scaleY(0)
   -webkit-transform-origin: 50% 0

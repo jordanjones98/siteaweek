@@ -14,7 +14,7 @@ h1 {
 
 p.value {
   font-size: 40px;
-  padding-top: 15%;
+  padding-top: 30%;
   font-family: Poiret One; }
 
 p.title {
@@ -39,7 +39,7 @@ p.subtitle {
 
 .section2 {
   background-color: white;
-  height: 40%; }
+  height: 455px; }
 
 .section3 {
   background-image: url(img/section3.jpeg);
@@ -48,10 +48,12 @@ p.subtitle {
   color: white; }
 
 p.value-description {
-  font-family: Open Sans, sans-serif; }
+  font-family: Open Sans, sans-serif;
+  color: palevioletred; }
 
 .joinnow {
-  font-family: Open Sans, sans-serif; }
+  font-family: Open Sans, sans-serif;
+  color: palevioletred; }
 
 .join {
   height: 60%; }
@@ -81,6 +83,9 @@ label {
 input[type="text email"] {
   background-color: rgba(184, 184, 184, 0.52); }
 
+@media (max-width: 550px) {
+  .section2 {
+    height: 925px; } }
 .hvr-bounce-to-bottom {
   display: inline-block;
   vertical-align: middle;
