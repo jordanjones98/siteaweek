@@ -5,10 +5,15 @@
     <link rel="stylesheet" href="css/main.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="css/skeleton.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="css/normalize.css" media="screen" title="no title" charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/jquery.js" charset="utf-8" type="text/javascript"></script>
+</body>
+
     <title>Site A Week</title>
+
   </head>
   <body>
-    <div class="section1">
+    <div class="section1" id="section1">
       <div class="container">
         <div class="seven columns">
           <p class="title">
@@ -17,6 +22,7 @@
           <p class="subtitle">
             Let us help you become a better developer
           </p>
+          <button type="button" name="join" class="joinnow hvr-bounce-to-bottom">Join Now!</button>
         </div>
       </div>
     </div>
@@ -32,11 +38,35 @@
               <p class="value-description">Push yourself to always be hacking beautiful new websites.</p>
             </div>
             <div class="one-third column value">
-              <p class="value">Bevome A Better Developer</h2>
+              <p class="value">Become A Better Developer</h2>
               <p class="value-description">What could make you a better developer than making a website a week?</p>
             </div>
           </div>
         </div>
+    </div>
+    <div class="section3 center join">
+      <div class="container inputcontain">
+        <form>
+          <div class="row">
+            <div class="six columns">
+              <label for="exampleEmailInput">Your email</label>
+              <input class="u-full-width input" type="email" placeholder="you@awesome.com" id="EmailInput">
+            </div>
+            <div class="six columns">
+              <label for="nameinput">Your Name</label>
+              <input type="text" name="name" placeholder="Your Name" class="u-full-width input" id="nameinput">
+            </div>
+          </div>
+          <label for="exampleMessage">Questions? Comments? Concerns?</label>
+          <textarea class="u-full-width input" placeholder="Put them here!" id="exampleMessage"></textarea>
+          <button type="submit" name="joinsubmit" class="joinsubmit hvr-bounce-to-bottom">Join!</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer center">
+      <div class="container">
+
+      </div>
     </div>
 
   </body>
