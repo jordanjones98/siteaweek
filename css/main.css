@@ -1,20 +1,19 @@
 @import url(https://fonts.googleapis.com/css?family=Poiret+One);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic);
 html, body {
-  height: 100%;
-  overflow: auto; }
+  height: 100%; }
 
 .center {
   text-align: center; }
 
 p.value {
   font-size: 35px;
-  padding-top: 25%;
+  padding-top: 15%;
   font-family: Poiret One; }
 
 p.title {
   font-size: 40px;
-  padding-top: 35%;
+  padding-top: 30%;
   font-family: Poiret One; }
 
 p.subtitle {
@@ -23,11 +22,19 @@ p.subtitle {
 
 .section1 {
   height: 80%;
-  background-color: red; }
+  background-image: url(img/section1.jpeg);
+  background-position: top;
+  background-attachment: fixed; }
 
 .section2 {
   background-color: white;
   height: 40%; }
+
+.section3 {
+  background-image: url(img/section3.jpeg);
+  background-position: bottom;
+  background-attachment: fixed;
+  color: white; }
 
 p.value-description {
   font-family: Open Sans, sans-serif; }
@@ -36,8 +43,7 @@ p.value-description {
   font-family: Open Sans, sans-serif; }
 
 .join {
-  height: 60%;
-  background-color: red; }
+  height: 60%; }
 
 label {
   font-family: Poiret One;
@@ -46,7 +52,8 @@ label {
 
 .button-submit {
   margin-top: 20px;
-  background-color: black; }
+  background-color: black;
+  font-family: Open Sans, sans-serif; }
 
 .input {
   text-align: center;
