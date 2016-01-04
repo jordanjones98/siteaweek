@@ -55,7 +55,8 @@ label {
 
 .input {
   text-align: center;
-  font-family: Open Sans, sans-serif; }
+  font-family: Open Sans, sans-serif;
+  color: black; }
 
 .inputcontain {
   padding-top: 80px; }
@@ -68,6 +69,9 @@ label {
 
 .joinsubmit {
   font-family: Open Sans, sans-serif; }
+
+input[type="text email"] {
+  background-color: rgba(184, 184, 184, 0.52); }
 
 .hvr-bounce-to-bottom {
   display: inline-block;
