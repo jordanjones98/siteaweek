@@ -4,26 +4,32 @@ $poiret: Poiret One
 $opensans: Open Sans, sans-serif
 html, body
   height: 100%
+p
+  font-size: 20px
 h1
   font-family: $poiret
 .center
   text-align: center
 p.value
-  font-size: 35px
+  font-size: 40px
   padding-top: 15%
   font-family: $poiret
 p.title
-  font-size: 40px
+  font-size: 50px
   padding-top: 30%
   font-family: $poiret
 p.subtitle
-  font-size: 20px
+  font-size: 30px
   font-family: $opensans
 .section1
   height: 80%
-  background-image: url(img/section1.jpeg)
+  background-image: url(img/section1.jpg)
   background-position: top
   background-attachment: fixed
+#background
+  height: 100%
+  width: 100%
+  background-color: rgba(150,150,150,0.2)
 .section2
   background-color: white
   height: 40%
@@ -70,7 +76,6 @@ input[type="text email"]
   transition-property: color
   -webkit-transition-duration: 0.5s
   transition-duration: 0.5s
-
 .hvr-bounce-to-bottom:before
   content: ""
   position: absolute
@@ -79,7 +84,7 @@ input[type="text email"]
   left: 0
   right: 0
   bottom: 0
-  background: #7d7d7d
+  background: palevioletred
   -webkit-transform: scaleY(0)
   transform: scaleY(0)
   -webkit-transform-origin: 50% 0
