@@ -5,6 +5,8 @@
     <link rel="stylesheet" href="css/main.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="css/skeleton.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="css/normalize.css" media="screen" title="no title" charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/jquery.js" charset="utf-8" type="text/javascript"></script>
     <title>Site A Week</title>
   </head>
   <body>
@@ -17,6 +19,7 @@
           <p class="subtitle">
             Let us help you become a better developer
           </p>
+          <button type="button" name="join" class="joinnow">Join Now!</button>
         </div>
       </div>
     </div>
@@ -38,6 +41,32 @@
           </div>
         </div>
     </div>
+    <div class="section3 center join">
+      <div class="container inputcontain">
+        <form>
+          <div class="row">
+            <div class="six columns">
+              <label for="exampleEmailInput">Your email</label>
+              <input class="u-full-width input" type="email" placeholder="you@awesome.com" id="EmailInput">
+            </div>
+            <div class="six columns">
+              <label for="nameinput">Your Name</label>
+              <input type="text" name="name" placeholder="Your Name" class="u-full-width input" id="nameinput">
+            </div>
+          </div>
+          <label for="exampleMessage">Message</label>
+          <textarea class="u-full-width" placeholder="Hi Dave …" id="exampleMessage"></textarea>
+          <input class="button-submit" type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
 
   </body>
 </html>
+
+<!-- <label for="exampleRecipientInput">Level</label>
+<select class="u-full-width" id="exampleRecipientInput">
+  <option value="Option 1">Beginner</option>
+  <option value="Option 2">Intermediate</option>
+  <option value="Option 3">Expert</option>
+</select> -->
