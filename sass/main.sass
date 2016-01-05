@@ -28,7 +28,7 @@ p.subtitle
   color: white
 .section1
   height: 80%
-  background-image: url(img/section1.jpg)
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/section1.jpg)
   background-position: top
   background-attachment: fixed
   z-index: -1
@@ -40,7 +40,7 @@ p.subtitle
   background-color: white
   height: 455px
 .section3
-  background-image: url(img/section3.jpeg)
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/section3.jpeg)
   background-position: bottom
   background-attachment: fixed
   color: white
@@ -52,6 +52,7 @@ p.value-description
   color: $color1
 .join
   height: 60%
+  padding-top: 40px
 label
   font-family: $poiret
   padding: 10px
@@ -68,6 +69,7 @@ label
   font-family: $poiret
 .joinsubmit
   font-family: $opensans
+  color: $color1
 input[type="text email"]
   background-color: rgba(184, 184, 184, 0.52)
 @-ms-viewport
@@ -75,8 +77,6 @@ input[type="text email"]
 
 // MEDIA QUERIES
 @media (max-width: 550px)
-  body
-    font-family: Lato, sans-serif
   .section2
     height: 1100px
   .section1

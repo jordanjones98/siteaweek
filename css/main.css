@@ -31,7 +31,7 @@ p.subtitle {
 
 .section1 {
   height: 80%;
-  background-image: url(img/section1.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/section1.jpg);
   background-position: top;
   background-attachment: fixed;
   z-index: -1; }
@@ -46,7 +46,7 @@ p.subtitle {
   height: 455px; }
 
 .section3 {
-  background-image: url(img/section3.jpeg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/section3.jpeg);
   background-position: bottom;
   background-attachment: fixed;
   color: white; }
@@ -60,7 +60,8 @@ p.value-description {
   color: palevioletred; }
 
 .join {
-  height: 60%; }
+  height: 60%;
+  padding-top: 40px; }
 
 label {
   font-family: Poiret One;
@@ -82,7 +83,8 @@ label {
   font-family: Poiret One; }
 
 .joinsubmit {
-  font-family: Open Sans, sans-serif; }
+  font-family: Open Sans, sans-serif;
+  color: palevioletred; }
 
 input[type="text email"] {
   background-color: rgba(184, 184, 184, 0.52); }
@@ -90,9 +92,6 @@ input[type="text email"] {
 @-ms-viewport {
   width: device-width; }
 @media (max-width: 550px) {
-  body {
-    font-family: Lato, sans-serif; }
-
   .section2 {
     height: 1100px; }
 
