@@ -20,17 +20,20 @@ p.value {
 p.title {
   font-size: 50px;
   padding-top: 30%;
-  font-family: Poiret One; }
+  font-family: Poiret One;
+  color: white; }
 
 p.subtitle {
   font-size: 30px;
-  font-family: Open Sans, sans-serif; }
+  font-family: Open Sans, sans-serif;
+  color: white; }
 
 .section1 {
   height: 80%;
   background-image: url(img/section1.jpg);
   background-position: top;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  z-index: -1; }
 
 #background {
   height: 100%;
