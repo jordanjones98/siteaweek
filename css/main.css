@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Poiret+One);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic);
+@import url(https://fonts.googleapis.com/css?family=Lato);
 html, body {
   height: 100%; }
 
@@ -89,6 +90,9 @@ input[type="text email"] {
 @-ms-viewport {
   width: device-width; }
 @media (max-width: 550px) {
+  body {
+    font-family: Lato, sans-serif; }
+
   .section2 {
     height: 1100px; }
 
