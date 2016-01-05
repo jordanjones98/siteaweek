@@ -97,7 +97,10 @@ input[type="text email"] {
     height: 1100px; }
 
   .section1 {
-    height: 650px; } }
+    height: 650px; }
+
+  p.title {
+    padding-top: 10%; } }
 @-ms-viewport {
   width: device-width; }
 .hvr-bounce-to-bottom {
