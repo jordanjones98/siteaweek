@@ -86,9 +86,14 @@ label {
 input[type="text email"] {
   background-color: rgba(184, 184, 184, 0.52); }
 
+@-ms-viewport {
+  width: device-width; }
 @media (max-width: 550px) {
   .section2 {
-    height: 925px; } }
+    height: 2000px; }
+
+  .section1 {
+    height: 1000px; } }
 .hvr-bounce-to-bottom {
   display: inline-block;
   vertical-align: middle;
