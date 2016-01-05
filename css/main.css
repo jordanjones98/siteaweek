@@ -99,6 +99,9 @@ input[type="text email"] {
   .section1 {
     height: 650px; }
 
+  .section3 {
+    height: 300px; }
+
   p.title {
     padding-top: 10%; } }
 @-ms-viewport {
