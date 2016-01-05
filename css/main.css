@@ -90,10 +90,10 @@ input[type="text email"] {
   width: device-width; }
 @media (max-width: 550px) {
   .section2 {
-    height: 1000px; }
+    height: 1200px; }
 
   .section1 {
-    height: 800px; } }
+    height: 600px; } }
 .hvr-bounce-to-bottom {
   display: inline-block;
   vertical-align: middle;
