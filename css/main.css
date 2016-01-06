@@ -56,7 +56,8 @@ p.value-description {
 
 .joinnow {
   font-family: Open Sans, sans-serif;
-  color: palevioletred; }
+  color: palevioletred;
+  font-size: 20px; }
 
 .join {
   height: 60%;
@@ -83,11 +84,16 @@ label {
 
 .joinsubmit {
   font-family: Open Sans, sans-serif;
-  color: palevioletred; }
+  color: palevioletred;
+  font-size: 20px;
+  margin-top: 20px; }
 
 .icon {
   padding-top: 30%;
   padding-bottom: 10px; }
+
+label {
+  font-size: 25px; }
 
 input[type="text email"] {
   background-color: rgba(184, 184, 184, 0.52); }
