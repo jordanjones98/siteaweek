@@ -1,7 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Poiret+One)
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic)
+@import url(https://fonts.googleapis.com/css?family=Lato)
 $poiret: Poiret One
 $opensans: Open Sans, sans-serif
+$color1: palevioletred
+
 html, body
   height: 100%
 p
@@ -12,20 +15,22 @@ h1
   text-align: center
 p.value
   font-size: 40px
-  padding-top: 15%
   font-family: $poiret
 p.title
   font-size: 50px
   padding-top: 30%
   font-family: $poiret
+  color: white
 p.subtitle
   font-size: 30px
   font-family: $opensans
+  color: white
 .section1
   height: 80%
-  background-image: url(img/section1.jpg)
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/section1.jpg)
   background-position: top
   background-attachment: fixed
+  z-index: -1
 #infobub
   text-align: center
   padding: 1px
@@ -40,26 +45,28 @@ p.subtitle
     font-size: 18px
     color: white
     margin: 20px
-
-
 #background
   height: 100%
   width: 100%
   background-color: rgba(150,150,150,0.2)
 .section2
   background-color: white
-  height: 40%
+  height: 455px
 .section3
-  background-image: url(img/section3.jpeg)
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/section3.jpeg)
   background-position: bottom
   background-attachment: fixed
   color: white
 p.value-description
   font-family: $opensans
+  color: $color1
 .joinnow
   font-family: $opensans
+  color: $color1
+  font-size: 20px
 .join
   height: 60%
+  padding-top: 40px
 label
   font-family: $poiret
   padding: 10px
@@ -67,6 +74,7 @@ label
 .input
   text-align: center
   font-family: $opensans
+  color: black
 .inputcontain
   padding-top: 80px
 .opensans
@@ -75,6 +83,34 @@ label
   font-family: $poiret
 .joinsubmit
   font-family: $opensans
+  color: $color1
+  font-size: 20px
+  margin-top: 20px
+.icon
+  padding-top: 30%
+  padding-bottom: 10px
+label
+  font-size: 25px
+input[type="text email"]
+  background-color: rgba(184, 184, 184, 0.52)
+
+
+// MEDIA QUERIES
+@media (max-width: 550px)
+  .section2
+    height: 1150px
+  .section1
+    height: 650px
+  .section3
+    height: 500px
+  p.title
+    padding-top: 10%
+@-ms-viewport
+  width: device-width
+
+
+
+// HOVER BOUNCE
 .hvr-bounce-to-bottom
   display: inline-block
   vertical-align: middle
@@ -97,7 +133,7 @@ label
   left: 0
   right: 0
   bottom: 0
-  background: palevioletred
+  background: $color1
   -webkit-transform: scaleY(0)
   transform: scaleY(0)
   -webkit-transform-origin: 50% 0
