@@ -4,4 +4,10 @@ $(document).ready(function(){
         scrollTop: $(".join").offset().top},
         'slow');
   });
+  $(".bioimg").mouseenter(function(){
+    $(".biotxt").fadeIn();
+  });
+  $(".bioimg").mouseleave(function(){
+    $(".biotxt").fadeOut();
+  });
 });

@@ -1,0 +1,18 @@
+.infobub
+  text-align: center
+  padding: 1px
+  width: 150px
+  height: 150px
+  border-radius: 120px
+  background-color: palevioletred
+  position: relative
+  left: -10px
+  top: -10px
+  font-family: $opensans
+  display: block
+  p
+    font-size: 18px
+    color: white
+    margin: 20px
+
+        <div class="infobub"><p>More information coming soon!</p></div>

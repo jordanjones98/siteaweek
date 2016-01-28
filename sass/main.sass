@@ -31,20 +31,6 @@ p.subtitle
   background-position: top
   background-attachment: fixed
   z-index: -1
-#infobub
-  text-align: center
-  padding: 1px
-  width: 150px
-  height: 150px
-  border-radius: 120px
-  background-color: palevioletred
-  position: relative
-  left: -10px
-  top: -10px
-  p
-    font-size: 18px
-    color: white
-    margin: 20px
 #background
   height: 100%
   width: 100%
@@ -93,6 +79,31 @@ label
   font-size: 25px
 input[type="text email"]
   background-color: rgba(184, 184, 184, 0.52)
+.footer
+  height: 250px
+  background-color: white
+p.find
+  font-family: $poiret
+  font-size: 50px
+a.meet
+  text-decoration: none
+p.meet
+  font-family: $opensans
+  color: black
+  transition-property: color .5s
+  -webkit-transition: color .5s
+  padding-top: 15px
+  display: block
+p.meet:hover
+  color: $color1
+.bioimg
+  height: 300px
+  width: 300px
+  border-radius: 50%
+.bio
+  padding-top: 15%
+.biotxt
+  display: none
 
 
 // MEDIA QUERIES
@@ -100,11 +111,15 @@ input[type="text email"]
   .section2
     height: 1150px
   .section1
-    height: 650px
+    height: 700px
   .section3
     height: 500px
   p.title
     padding-top: 10%
+  .ham
+    display: inline
+
+
 @-ms-viewport
   width: device-width
 

@@ -35,21 +35,6 @@ p.subtitle {
   background-attachment: fixed;
   z-index: -1; }
 
-#infobub {
-  text-align: center;
-  padding: 1px;
-  width: 150px;
-  height: 150px;
-  border-radius: 120px;
-  background-color: palevioletred;
-  position: relative;
-  left: -10px;
-  top: -10px; }
-  #infobub p {
-    font-size: 18px;
-    color: white;
-    margin: 20px; }
-
 #background {
   height: 100%;
   width: 100%;
@@ -113,18 +98,54 @@ label {
 input[type="text email"] {
   background-color: rgba(184, 184, 184, 0.52); }
 
+.footer {
+  height: 250px;
+  background-color: white; }
+
+p.find {
+  font-family: Poiret One;
+  font-size: 50px; }
+
+a.meet {
+  text-decoration: none; }
+
+p.meet {
+  font-family: Open Sans, sans-serif;
+  color: black;
+  transition-property: color 0.5s;
+  -webkit-transition: color 0.5s;
+  padding-top: 15px;
+  display: block; }
+
+p.meet:hover {
+  color: palevioletred; }
+
+.bioimg {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%; }
+
+.bio {
+  padding-top: 15%; }
+
+.biotxt {
+  display: none; }
+
 @media (max-width: 550px) {
   .section2 {
     height: 1150px; }
 
   .section1 {
-    height: 650px; }
+    height: 700px; }
 
   .section3 {
     height: 500px; }
 
   p.title {
-    padding-top: 10%; } }
+    padding-top: 10%; }
+
+  .ham {
+    display: inline; } }
 @-ms-viewport {
   width: device-width; }
 .hvr-bounce-to-bottom {
